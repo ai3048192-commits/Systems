@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 1. استيراد الخط مباشرة من جوجل داخل الـ CSS لضمان تشغيله */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap');
+
+/* 2. إجبار الموقع كله والهيدر على قراءة الخط */
+* {
+  font-family: 'Tajawal', sans-serif ;
+}
